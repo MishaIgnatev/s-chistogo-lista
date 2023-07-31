@@ -39,7 +39,6 @@ a:visited {
 .header {
     padding: 24px 20px;
     display: flex;
-    height: 132px;
     align-items: flex-start;
     gap: 168px;
     
@@ -62,23 +61,22 @@ a:visited {
 
 
 .header__menu-link {
-    font-family: Inter;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     color:#F5F5F5;
     font-weight: 400;
     line-height: 19.2px;
-    text-decoration-line: underline;
 }
 
 
-.header__menu-item .header__menu-link {
+.header__menu-item_active {
     text-decoration: none;
 }
 
 
 .cover {
-    background-image: url(/images/cover.svg);
+    background-image: url(../images/cover.svg);
     background-size: 95% auto;
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -95,7 +93,7 @@ a:visited {
     font-weight: 400;
     line-height: 100%;
     color: #FFF;
-    font-family: EB Garamond;
+    font-family: EB Garamond, 'Times New Roman', serif;
 }
 
 
@@ -116,8 +114,8 @@ a:visited {
 }
 
 .intro__title {
-    color: var(--text-gray, #CCC);
-    font-family: Inter;
+    color: #CCC;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -126,8 +124,8 @@ a:visited {
 }
 
 .intro__date {
-    color: var(--text-gray, #CCC);
-    font-family: Inter;
+    color: #CCC;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -138,7 +136,7 @@ a:visited {
 
 .intro__main-text {
     color: #F5F5F5;
-    font-family: Inter;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -171,7 +169,7 @@ a:visited {
 
 
 .content-section__subtitle {
-    font-family: EB Garamond;
+    font-family: EB Garamond, 'Times New Roman', serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
@@ -180,7 +178,7 @@ a:visited {
 
 
 .content-section__introduction {
-    font-family: Inter;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -201,8 +199,8 @@ a:visited {
 
 
 .content-section__list-item {
-    color: var(--black-bg, #131313);
-    font-family: Inter;
+    color: #131313;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -211,8 +209,8 @@ a:visited {
 
 
 .content-section__list-accent {
-    color: var(--black-bg, #131313);
-    font-family: Inter;
+    color: #131313;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -266,14 +264,14 @@ a:visited {
 .card__author-photo {
     width: 100px;
     height: 100px;
-    border-radius: 50px;
+    border-radius: 50%;
     margin-bottom: 8px;
 }
 
 
 .card__author-name {
     color: #F5F5F5;
-    font-family: Inter;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -283,7 +281,7 @@ a:visited {
 
 
 .card__title {
-    font-family: EB Garamond;
+    font-family: EB Garamond, 'Times New Roman', serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -293,7 +291,7 @@ a:visited {
 
 
 .card__text {
-    font-family: Inter;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -324,7 +322,7 @@ a:visited {
 .footer__links a {
     text-decoration: none;
     color: #F5F5F5;
-    font-family: Inter;
+    font-family: Inter, Helvetica, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
